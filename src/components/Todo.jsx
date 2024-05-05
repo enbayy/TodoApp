@@ -31,7 +31,7 @@ function Todo({ todo, onRemoveTodo, onUpdateTodo }) {
                 }
             </div>
             <div>
-                <IoIosRemoveCircle className='todo-icons' onClick={removeTodo} />
+                <IoIosRemoveCircle className='todo-icons-remove' onClick={removeTodo} />
                 {
                     editable ? <FaCheck className='todo-icons' onClick={updateTodo} /> : <FaEdit className='todo-icons' onClick={() => setEditable(true)} />
                 }

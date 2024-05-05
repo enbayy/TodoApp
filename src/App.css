@@ -76,4 +76,12 @@
     font-size: 25px;
     margin-right: 5px;
     cursor: pointer;
+    color: green;
+}
+
+.todo-icons-remove {
+    font-size: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: red;
 }
